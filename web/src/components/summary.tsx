@@ -8,25 +8,13 @@ import { Button } from './ui/button'
 import { InOrbitIcon } from './in-orbit-icon'
 import { Progress, ProgressIndicator } from './ui/progress-bar'
 import { Separator } from './ui/separator'
-import { OutlineButton } from './ui/outline-button'
-import { useState } from 'react'
 import { useQuery } from '@tanstack/react-query'
 import { getSummary } from '../http/get-summary'
+import { PendingGoals } from './pending-goals'
 
 dayjs.locale(pdBR)
 
-interface GoalsProps {
-  title: string
-}
-
 export function Summary() {
-  const [goals, setGoals] = useState<GoalsProps[]>([
-    { title: 'Meditar' },
-    { title: 'Nadar' },
-    { title: 'Praticar execícios' },
-    { title: 'Ler livro' },
-  ])
-
   const firstDayOfWeek = dayjs().startOf('week').format('D MMM')
   const lastDayOfWeek = dayjs().endOf('week').format('D MMM')
 
@@ -76,14 +64,7 @@ export function Summary() {
 
         <Separator />
 
-        <div className="flex gap-3 flex-wrap">
-          {goals.map(goal => (
-            <OutlineButton key={goal.title}>
-              <Plus className="size-4 text-zinc-600" />
-              {goal.title}
-            </OutlineButton>
-          ))}
-        </div>
+        <PendingGoals />
 
         <div className="flex flex-col gap-6">
           <h2>Sua semana</h2>
