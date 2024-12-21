@@ -55,19 +55,42 @@ Utilizando as tecnologias:
 
 ```txt
   📦 root
-  ┣ 📂 pages
-  ┃ ┗ 📜 index.js
-  ┣ 📂 models
-  ┃ ┣ 📜 user.js
-  ┃ ┣ 📜 content.js
-  ┃ ┗ 📜 password.js
-  ┣ 📂 infra
-  ┃ ┗ 📜 database.js
-  ┃ ┣ 📂 migrations
-  ┃ ┣ 📂 provisioning
-  ┃ ┃ ┣ 📂 staging
-  ┃ ┃ ┣ 📂 production
-  ┣ 📂 tests
+  ┣ 📂 .vscode
+  ┃ ┗ 📜 settings.json
+  ┣ 📂 public
+  ┃ ┗ 📜 icon.svg
+  ┣ 📂 src
+  ┃ ┣ 📂 assets
+  ┃ ┃ ┣ 📜 lets-start-illustration.svg
+  ┃ ┃ ┗ 📜 logo-in-orbit.svg
+  ┃ ┣ 📂 components
+  ┃ ┃ ┣ 📂 ui 
+  ┃ ┃ ┃ ┣ 📜 button.tsx 
+  ┃ ┃ ┃ ┣ 📜 dialog.tsx 
+  ┃ ┃ ┃ ┣ 📜 input.tsx 
+  ┃ ┃ ┃ ┣ 📜 label.tsx 
+  ┃ ┃ ┃ ┣ 📜 outline-button.tsx 
+  ┃ ┃ ┃ ┣ 📜 progress-bar.tsx 
+  ┃ ┃ ┃ ┣ 📜 radio-group.tsx 
+  ┃ ┃ ┃ ┗ 📜 separator.tsx 
+  ┃ ┃ ┣ 📜 create-goal.tsx 
+  ┃ ┃ ┣ 📜 empty-goal.tsx 
+  ┃ ┃ ┣ 📜 in-orbit-icon.tsx 
+  ┃ ┃ ┗ 📜 summary.tsx 
+  ┃ ┣ 📜 app.tsx
+  ┃ ┣ 📜 index.tsx
+  ┃ ┗ 📜 main.tsx
+  ┣ 📜 .gitignore
+  ┣ 📜 biome.json
+  ┣ 📜 index.html
+  ┣ 📜 package-lock.json
+  ┣ 📜 package.json
+  ┣ 📜 postcss.config.js
+  ┣ 📜 tailwind.config.json
+  ┣ 📜 tsconfig.app.json
+  ┣ 📜 tsconfig.json
+  ┣ 📜 tsconfig.node.json
+  ┗ 📜 vite.config.ts
 
 ```
 
