@@ -77,6 +77,7 @@ Utilizando as tecnologias:
   ┃ ┃ ┣ 📜 create-goal.tsx 
   ┃ ┃ ┣ 📜 empty-goal.tsx 
   ┃ ┃ ┣ 📜 in-orbit-icon.tsx 
+  ┃ ┃ ┣ 📜 pending-goals.tsx 
   ┃ ┃ ┗ 📜 summary.tsx 
   ┃ ┣ 📜 app.tsx
   ┃ ┣ 📜 index.tsx
