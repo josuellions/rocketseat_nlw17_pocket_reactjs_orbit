@@ -15,6 +15,7 @@ Utilizando as tecnologias:
 - Vite
 - React
 - TypeScript,
+- TanStack Query
 - Tailwind CSS,
 - Lucide react,
 - Radix
