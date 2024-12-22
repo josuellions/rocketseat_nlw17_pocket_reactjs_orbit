@@ -77,16 +77,21 @@ Utilizando as tecnologias:
   ┃ ┃ ┃ ┃ ┣ 📜 radio-group.tsx 
   ┃ ┃ ┃ ┃ ┗ 📜 separator.tsx 
   ┃ ┃ ┃ ┣ 📜 create-goal.tsx 
-  ┃ ┃ ┣ 📜 empty-goal.tsx 
+  ┃ ┃ ┃ ┣ 📜 empty-goal.tsx 
   ┃ ┃ ┃ ┣ 📜 in-orbit-icon.tsx 
   ┃ ┃ ┃ ┣ 📜 pending-goals.tsx 
   ┃ ┃ ┃ ┗ 📜 summary.tsx 
-  ┃ ┣ 📜 app.tsx
+  ┃ ┃ ┣ 📂 http
+  ┃ ┃ ┃ ┣ 📜 create-goal-completion.ts 
+  ┃ ┃ ┃ ┣ 📜 create-goal.ts
+  ┃ ┃ ┃ ┣ 📜 get-pending-goal.ts 
+  ┃ ┃ ┃ ┗ 📜 get-summary.ts
+  ┃ ┃ ┣ 📜 app.tsx
   ┃ ┃ ┣ 📜 index.tsx
-  ┃ ┗ 📜 main.tsx
+  ┃ ┃ ┗ 📜 main.tsx
   ┃ ┣ 📜 .gitignore
   ┃ ┣ 📜 biome.json
- ┃ ┃  ┣ 📜 index.html
+  ┃ ┣ 📜 index.html
   ┃ ┣ 📜 package-lock.json
   ┃ ┣ 📜 package.json
   ┃ ┣ 📜 postcss.config.js
@@ -112,10 +117,10 @@ Utilizando as tecnologias:
 ---
 
 - Baixar projeto back-end
-- - Necessário para rodar aplicação e buscar e cadastrar novos dados.
-- - - Para executar o back-end seguir documentação do projeto link abaixo:  
+> Necessário para rodar aplicação e buscar, listar e cadastrar novos dados.
+> Para executar o back-end seguir documentação do projeto link abaixo:  
 
-- [🔥 Back-end](https://github.com/josuellions/rocketseat_nlw17_pocket_nodejs_orbit) - projeto server
+- [💻 Back-end server](https://github.com/josuellions/rocketseat_nlw17_pocket_nodejs_orbit) - projeto server
 
 <br/>
 
