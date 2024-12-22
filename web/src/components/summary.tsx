@@ -73,7 +73,7 @@ export function Summary() {
               <h3 className="font-medium">
                 <span className="capitalize">{dayjs(date).format('dddd')}</span>{' '}
                 <span className="text-zinc-400 text-xs">
-                  ({dayjs(date).format('d[ de ] MMMM')})
+                  ({dayjs(date).format('D[ de ] MMMM')})
                 </span>
               </h3>
               <ul className="flex flex-col gap-3">
