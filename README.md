@@ -16,6 +16,7 @@ Utilizando as tecnologias:
 - React
 - TypeScript,
 - TanStack Query
+- React hook form,
 - Tailwind CSS,
 - Lucide react,
 - Radix
@@ -56,43 +57,45 @@ Utilizando as tecnologias:
 
 ```txt
   📦 root
-  ┣ 📂 .vscode
-  ┃ ┗ 📜 settings.json
-  ┣ 📂 public
-  ┃ ┗ 📜 icon.svg
-  ┣ 📂 src
-  ┃ ┣ 📂 assets
-  ┃ ┃ ┣ 📜 lets-start-illustration.svg
-  ┃ ┃ ┗ 📜 logo-in-orbit.svg
-  ┃ ┣ 📂 components
-  ┃ ┃ ┣ 📂 ui 
-  ┃ ┃ ┃ ┣ 📜 button.tsx 
-  ┃ ┃ ┃ ┣ 📜 dialog.tsx 
-  ┃ ┃ ┃ ┣ 📜 input.tsx 
-  ┃ ┃ ┃ ┣ 📜 label.tsx 
-  ┃ ┃ ┃ ┣ 📜 outline-button.tsx 
-  ┃ ┃ ┃ ┣ 📜 progress-bar.tsx 
-  ┃ ┃ ┃ ┣ 📜 radio-group.tsx 
-  ┃ ┃ ┃ ┗ 📜 separator.tsx 
-  ┃ ┃ ┣ 📜 create-goal.tsx 
+  ┣ 📂 web
+  ┃ ┣ 📂 .vscode
+  ┃ ┃ ┗ 📜 settings.json
+  ┃ ┣ 📂 public
+  ┃ ┃ ┗ 📜 icon.svg
+  ┃ ┣ 📂 src
+  ┃ ┃ ┣ 📂 assets
+  ┃ ┃ ┃ ┣ 📜 lets-start-illustration.svg
+  ┃ ┃ ┃ ┗ 📜 logo-in-orbit.svg
+  ┃ ┃ ┣ 📂 components
+  ┃ ┃ ┃ ┣ 📂 ui 
+  ┃ ┃ ┃ ┃ ┣ 📜 button.tsx 
+  ┃ ┃ ┃ ┃ ┣ 📜 dialog.tsx 
+  ┃ ┃ ┃ ┃ ┣ 📜 input.tsx 
+  ┃ ┃ ┃ ┃ ┣ 📜 label.tsx 
+  ┃ ┃ ┃ ┃ ┣ 📜 outline-button.tsx 
+  ┃ ┃ ┃ ┃ ┣ 📜 progress-bar.tsx 
+  ┃ ┃ ┃ ┃ ┣ 📜 radio-group.tsx 
+  ┃ ┃ ┃ ┃ ┗ 📜 separator.tsx 
+  ┃ ┃ ┃ ┣ 📜 create-goal.tsx 
   ┃ ┃ ┣ 📜 empty-goal.tsx 
-  ┃ ┃ ┣ 📜 in-orbit-icon.tsx 
-  ┃ ┃ ┣ 📜 pending-goals.tsx 
-  ┃ ┃ ┗ 📜 summary.tsx 
+  ┃ ┃ ┃ ┣ 📜 in-orbit-icon.tsx 
+  ┃ ┃ ┃ ┣ 📜 pending-goals.tsx 
+  ┃ ┃ ┃ ┗ 📜 summary.tsx 
   ┃ ┣ 📜 app.tsx
-  ┃ ┣ 📜 index.tsx
+  ┃ ┃ ┣ 📜 index.tsx
   ┃ ┗ 📜 main.tsx
-  ┣ 📜 .gitignore
-  ┣ 📜 biome.json
-  ┣ 📜 index.html
-  ┣ 📜 package-lock.json
-  ┣ 📜 package.json
-  ┣ 📜 postcss.config.js
-  ┣ 📜 tailwind.config.json
-  ┣ 📜 tsconfig.app.json
-  ┣ 📜 tsconfig.json
-  ┣ 📜 tsconfig.node.json
-  ┗ 📜 vite.config.ts
+  ┃ ┣ 📜 .gitignore
+  ┃ ┣ 📜 biome.json
+ ┃ ┃  ┣ 📜 index.html
+  ┃ ┣ 📜 package-lock.json
+  ┃ ┣ 📜 package.json
+  ┃ ┣ 📜 postcss.config.js
+  ┃ ┣ 📜 tailwind.config.json
+  ┃ ┣ 📜 tsconfig.app.json
+  ┃ ┣ 📜 tsconfig.json
+  ┃ ┣ 📜 tsconfig.node.json
+  ┃ ┗ 📜 vite.config.ts
+  ┗ 📜 README.md
 
 ```
 
@@ -107,6 +110,12 @@ Utilizando as tecnologias:
 #### 🧰 Dependências
 
 ---
+
+- Baixar projeto back-end
+- - Necessário para rodar aplicação e buscar e cadastrar novos dados.
+- - - Para executar o back-end seguir documentação do projeto link abaixo:  
+
+- [🔥 Back-end](https://github.com/josuellions/rocketseat_nlw17_pocket_nodejs_orbit) - projeto server
 
 <br/>
 
@@ -123,6 +132,26 @@ Utilizando as tecnologias:
 #### 🔥 Como executar
 
 ---
+
+- Realize o clone ou baixe o projeto localmente.
+
+- - Instalar ou atualizar os pacotes e dependências
+
+```bash
+npm install
+```
+
+- - Para executar o projeto em modo de desenvolvimento.
+
+```bash
+npm run dev
+```
+
+- - Para executar o projeto em modo de produção e homologação.
+
+```bash
+npm run start
+```
 
 <br/>
 
