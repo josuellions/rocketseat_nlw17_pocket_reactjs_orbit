@@ -28,6 +28,8 @@ Utilizando as tecnologias:
 
 #### Projeto: in.orbit - Rocketseat NLW17 Pocket React
 
+![iorbit_web_01](https://github.com/user-attachments/assets/44419eb0-2292-4e9e-a28f-c6f96c090376)
+
 </br>
 
 #### 📋 Sumário
