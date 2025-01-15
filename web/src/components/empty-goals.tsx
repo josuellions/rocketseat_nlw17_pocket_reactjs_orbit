@@ -11,7 +11,7 @@ export function EmptyGoals() {
       <img src={logo} alt="logo in.orbit" />
       <img src={letsStart} alt="banner in.orbit" />
       <p className="text-zinc-300 leading-relaxed max-w-80 text-center">
-        Você ainda não cadastrou nenhuma mete, que tal cadastrar uma agora
+        Você ainda não cadastrou nenhuma meta, que tal cadastrar uma agora
         mesmo?
       </p>
 

@@ -28,7 +28,7 @@ interface DayWeekProps {
 }
 
 const createGoalForm = z.object({
-  title: z.string().min(1, 'Infrome a atividade que deseja cadastrar.'),
+  title: z.string().min(1, 'Informe a atividade que deseja cadastrar.'),
   desiredWeeklyFrequency: z.coerce.number().min(1).max(7),
 })
 
